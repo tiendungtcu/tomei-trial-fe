@@ -13,6 +13,7 @@ export const Footer: React.FC = () => {
     const iconStyle: CSSProperties = {
         fontSize: 22,
         color: "#fff",
+        fontFamily: "Open Sans"
     };
     return (
         <div

@@ -1,0 +1,8 @@
+.ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-tail::after {
+    background-color: #1890ff;
+}
+
+.ant-steps-item-tail::after {
+    height: 2px;
+    background-color:#1890ff !important ;
+}

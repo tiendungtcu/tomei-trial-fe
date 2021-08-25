@@ -19,7 +19,7 @@ export const Main: React.FC = () => {
             >
                 superplate
             </h1>
-            <p style={{ fontSize: 18 }}>
+            <p style={{ fontSize: 18, fontFamily: "Open Sans" }}>
                 The frontend boilerplate with superpowers!
             </p>
             <Button type="primary" size="large">

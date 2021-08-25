@@ -12,6 +12,11 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
   }
+
+  .authentication-steps {
+    font-family: "Open Sans";
+    font-size: 24;
+  }
 `;
 
 export default GlobalStyle;
