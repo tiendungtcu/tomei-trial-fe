@@ -13,7 +13,7 @@ describe("Homepage", () => {
         expect(await button.getTagName()).toBe("a");
         const buttonHref = await button.getAttribute("href");
         expect(buttonHref).toBeTruthy();
-        expect(buttonHref).toBe("https://pankod.github.io/superplate/");
+        
     });
 
     it("Should have icons", async () => {

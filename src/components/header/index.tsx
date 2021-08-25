@@ -1,11 +1,11 @@
 import React from "react";
 
-import { Logo } from "@components";
+import { Image } from "antd";
 
 export const Header: React.FC = () => {
     return (
-        <div style={{ backgroundColor: "#20232a", textAlign: "center" }}>
-            <Logo />
+        <div style={{ marginTop: 20, marginBottom: 30, textAlign: "center" }}>
+            <Image src='assets/logo.png' />
         </div>
     );
 };

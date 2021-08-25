@@ -6,3 +6,7 @@
     height: 2px;
     background-color:#1890ff !important ;
 }
+
+.ant-input-lg {
+    border-radius: 10px;
+}

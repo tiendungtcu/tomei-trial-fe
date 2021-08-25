@@ -1,8 +1,5 @@
 # tomei-trial-fe
 
-
-This project was generated with [superplate](https://github.com/pankod/superplate).
-
 ## Getting Started
 
 superplate is a Next.js all-in-one project generator. Create your project with the tools you need without spending hours on setting them up.
@@ -164,8 +161,3 @@ GitHub Actions makes it easy to automate all your software workflows, now with w
 
 [Go To Documentation](https://docs.github.com/en/actions)
 
-
-
-## License
-
-MIT
