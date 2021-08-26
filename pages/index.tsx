@@ -47,7 +47,6 @@ const Home: React.FC = () => {
 
     }
     const onUploadClick = () => {
-        /*Collecting node-element and performing click*/
         inputFileRef.current.click();
     }
 
@@ -93,6 +92,9 @@ const Home: React.FC = () => {
                     CREATE YOUR ACCOUNT
                 </span>
             </div>
+            <p style={{ fontFamily: "Open Sans", fontWeight: 600, fontSize: 16, color: "#000" }}>
+                Because there will be documents that you need to prepare to apply for the load, let's start off by creating a password so that you can login to your account once you have  these document ready.
+            </p>
             <Form
                 form={form}
                 layout="vertical"
@@ -170,7 +172,6 @@ const Home: React.FC = () => {
                         <Button
                             type="text"
                             size="large"
-                            ghost
                             htmlType="submit"
                         >
                             <span style={{ fontFamily: "Open Sans", fontSize: 16, fontWeight: 600, color: '#0A3977' }}> SAVE & NEXT </span>

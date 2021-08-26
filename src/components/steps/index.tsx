@@ -58,14 +58,12 @@ export const StepsComponent: React.FC = () => {
                 onChange={onChange}
                 labelPlacement='vertical'
                 className={styles.authentication_steps}
-                //progressDot={customDot}
                 responsive
             >
                 {stepsData.map((value, index) => <Step key={'account_step_'+value.id}
-                    title={<p style={{ whiteSpace: 'pre-wrap', color: currentStep === value.id-1 ? '#1890FF' : '#272727' }}>{value.title} {value.description}</p>}
+                    title={<span style={{ fontFamily: "Open Sans", fontWeight: 'bold', color: currentStep === value.id-1 ? '#1890FF' : '#000' }}>{value.title}</span>}
                     icon={customDot(value.id)}
-                //subTitle="This is a description"
-                //description="This is a description ."
+                    description={<span style={{ fontFamily: "Open Sans", fontWeight: 600, whiteSpace: 'pre-wrap', color: currentStep === value.id-1 ? '#1890FF' : '#000' }}>{value.description}</span>}
                 />)
                 }
             </Steps>
